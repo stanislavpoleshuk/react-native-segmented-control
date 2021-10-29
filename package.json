@@ -23,7 +23,7 @@
     "postpublish": "git push && git push --tags",
     "prettier": "prettier --write \"{docs,src}/**/*.{json,md,js,jsx,ts,tsx}\"",
     "version": "git add -A",
-    "watch:segment": "yarn tsc --watch",
+    "watch:segmented": "yarn tsc --watch",
     "watch:react-native-segmented-control": "concurrently \"yarn watch:segmented\" \"yarn cpx 'src/**/*' 'example/node_modules/@stanislavpoleshuk/react-native-segmented-control' --watch\""
   },
   "repository": {
@@ -31,14 +31,14 @@
     "url": "git@github.com:stanislavpoleshuk/react-native-segmented-control.git"
   },
   "dependencies": {
-    "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react": "17.0.2",
+    "react-native": "0.66.1"
   },
   "devDependencies": {
-    "@react-native-community/eslint-config": "^1.1.0",
+    "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.11",
-    "@types/react-native": "^0.64.10",
+    "@types/react-native": "^0.65.0",
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.28.0",
     "concurrently": "5.3.0",
